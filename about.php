@@ -25,11 +25,11 @@
             </div>
             <div class="admin-image">
                 <img id="adminImg" src="images/mihiru.jpg" alt="admin Image" class="image-popup-trigger">
-                <img id="adminImg2" src="images/p_h2002.jpg" alt="admin Image" class="image-popup-trigger">
-                <img id="adminImg3" src="images/bg3.jpg" alt="admin Image" class="image-popup-trigger">
-                <img id="adminImg3" src="images/bg5.jpg" alt="admin Image" class="image-popup-trigger">
-                <img id="adminImg3" src="images/bg6.jpg" alt="admin Image" class="image-popup-trigger">
-                <img id="adminImg3" src="images/WhatsApp Image 2024-10-21 at 00.18.32_8ece0ced.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg2" src="images/ravindu.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg3" src="images/ushara.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg3" src="images/tharindu.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg3" src="images/thanushi.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg3" src="images/savi.jpg" alt="admin Image" class="image-popup-trigger">
             </div>
 
             <!-- Bullet Indicators -->
