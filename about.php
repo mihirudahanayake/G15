@@ -24,7 +24,7 @@
                 <p></p>
             </div>
             <div class="admin-image">
-                <img id="adminImg" src="images/bg4.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg" src="images/mihiru.jpg" alt="admin Image" class="image-popup-trigger">
                 <img id="adminImg2" src="images/p_h2002.jpg" alt="admin Image" class="image-popup-trigger">
                 <img id="adminImg3" src="images/bg3.jpg" alt="admin Image" class="image-popup-trigger">
                 <img id="adminImg3" src="images/bg5.jpg" alt="admin Image" class="image-popup-trigger">
