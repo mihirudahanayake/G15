@@ -1,0 +1,96 @@
+/* General body styling */
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+ 
+ /* Container for the table and content */
+ .admin-container {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 80%;
+     max-width: 800px;
+     text-align: center;
+ }
+ 
+ /* Page title styling */
+ .admin-container h2 {
+     margin-bottom: 20px;
+     font-size: 24px;
+     color: #333;
+ }
+ 
+ /* Table styling */
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 20px;
+ }
+ 
+ th, td {
+     padding: 12px;
+     border: 1px solid #ddd;
+     text-align: left;
+ }
+ 
+ th {
+     background-color: #4CAF50;
+     color: white;
+     text-align: center;
+ }
+ 
+ td {
+     text-align: center;
+     color: #333;
+ }
+ 
+ /* Alternate row coloring */
+ tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+ 
+ /* Button styling */
+ button {
+     padding: 10px 20px;
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     margin-top: 10px;
+ }
+ 
+ button a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ button:hover {
+     background-color: #45a049;
+ }
+ 
+ /* Responsive styling */
+ @media (max-width: 600px) {
+     .admin-container {
+         width: 95%;
+     }
+ 
+     table, th, td {
+         font-size: 14px;
+     }
+ 
+     button {
+         width: 100%;
+         font-size: 14px;
+     }
+ }
+ 

@@ -1,0 +1,38 @@
+/* Select dropdown styling */
+select#user_type {
+  padding: 10px; /* Padding inside the select box */
+  width: 135px;
+  font-size: 16px; /* Font size */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light transparent border */
+  border-radius: 8px; /* Rounded corners */
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  color: #fff; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  appearance: none; /* Remove default dropdown arrow */
+  -webkit-appearance: none; /* Remove default dropdown arrow in Safari */
+  -moz-appearance: none; /* Remove default dropdown arrow in Firefox */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  background-image: url("Images/down-arrow.png"); /* Custom arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the arrow */
+  background-size: 20px;
+}
+
+/* Hover and focus state */
+select#user_type:hover,
+select#user_type:focus {
+  border-color: rgba(255, 255, 255, 0.4); /* Slightly more visible border on hover and focus */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4); /* White shadow on focus */
+}
+
+/* Dropdown options styling */
+select#user_type option {
+  background: rgba(255, 255, 255, 0.1); /* Transparent background for options */
+  color: #0081b4; /* Black text for options */
+}
+
+/* Add some margin to the bottom */
+select#user_type {
+  margin-bottom: 15px; /* Space below the select box */
+}

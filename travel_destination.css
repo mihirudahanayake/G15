@@ -1,0 +1,182 @@
+/* styles2.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 2.5rem;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg{
+    background-image: url("Images/bg10.jpg");
+    filter: blur(2px);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: .2rem auto;
+    padding: 20px;
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.216);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Add this CSS to styles2.css */
+
+.search-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items vertically centered */
+    margin-bottom: 20px; /* Space below the search filters */
+}
+
+.filter {
+    flex: 1; /* Allows the filters to grow equally */
+    margin-right: 10px; /* Space between filters */
+}
+
+.filter:last-child {
+    margin-right: 0; /* Removes margin from the last filter */
+}
+
+select, input[type="text"] {
+    width: 100%; /* Makes input and select elements full width */
+    padding: 10px; /* Adds padding for better appearance */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add this CSS to styles2.css */
+
+.search-filters {
+    border:#ffffffc0 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #ffffff56;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items vertically centered */
+    margin-bottom: 20px; /* Space below the search filters */
+}
+
+.filter {
+    flex: 1; /* Allows the filters to grow equally */
+    margin-right: 10px; /* Space between filters */
+}
+
+.filter:last-child {
+    margin-right: 0; /* Removes margin from the last filter */
+}
+
+select, input[type="text"] {
+    width: 100%; /* Makes input and select elements full width */
+    padding: 10px; /* Adds padding for better appearance */
+    border: 1px solid #4b4b4b;
+    background-color: #ffffff14;
+    border-radius: 5px;
+}
+
+/* Style for the search button */
+.search-button {
+    flex: 0.5; /* Adjusts the width of the button */
+}
+
+.search-button button {
+    width: 100%; /* Makes the button take full width */
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button button:hover {
+    background-color: #0056b3; /* Changes color on hover */
+}
+
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.destination img {
+    width: 100%;
+    max-height: 200px;
+}
+
+.details-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.details-link:hover {
+    background-color: #27ae60;
+}
+
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.destination {
+    border: 2px solid #55555581;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fafafac8;
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.118);
+    animation: floatIn 0.5s ease forwards; /* Apply float in animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease-in-out, background-color 0.3s ease; /* Ensure smooth transitions */
+    opacity: 0; /* Start with 0 opacity for animation */
+}
+
+.destination:hover {
+    transform: scale(1.04); /* Scale up on hover */
+    background-color: #ffffffe4; /* Change background color */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.23); /* Change box shadow */
+}

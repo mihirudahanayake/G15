@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    padding: 0 20px;
+}
+
+.foot {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.background{
+    background: url("Images/r.jpg")no-repeat center center/cover;
+    filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 20px;
+}
+ 
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 4rem;
+}
+ 
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+ 
+strong {
+    font-weight: bold;
+}
+ 
+ form {
+    margin-top: 20px;
+ }
+ 
+ label {
+    display: block;
+    margin-bottom: 5px;
+ }
+ 
+ input[type="date"], #check-availability, #book-now-btn  {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }
+ 
+ #check-availability, #book-now-btn {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+ }
+ 
+ #check-availability:hover, #book-now-btn:hover {
+    background-color: #0056b3;
+ }
+
+.gallery {
+    width: 75%;
+    padding: 10px;
+    border: 3px solid #0000002e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    margin: 0 auto 2vh ; 
+ }
+ 
+.gallery img{
+   width: 40vw;
+   height: auto;
+   border-radius: 8px;
+   object-fit: cover;
+   margin-bottom: 40px;
+   user-select: none;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+   bottom: 0;
+}
+
+.availability {
+    width: 30vw;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border: 3px solid #0000003c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.055);
+    margin: 10px 15vw;
+}
+
+.room-details {
+    display: block;
+    height: fit-content;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 15vw;
+    background-color: #ffffff3a;
+    backdrop-filter: blur(10px);
+    border: 3px solid #0000003c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.055);
+    transition: 0.3s ease;
+}
+
+.room-details:hover {
+    background-color:  #ffffff9d;
+}
+
+.back {
+    width: 200px;
+    height: 40px;
+}
+
+.destinations {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.room-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.room-details li {
+    padding: 5px 0;
+}

@@ -1,0 +1,89 @@
+/* Basic styling for the body */
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh; /* Ensures the container is vertically centered */
+ }
+ .bg {
+     background-image: url("Images/bg6.jpg");
+     filter: blur(2px);
+     background-size: cover;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ /* Container for booking details */
+ .booking-details-container {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     max-width: 500px;
+     width: 100%;
+     text-align: left;
+ }
+ 
+ /* Heading styles */
+ .booking-details-container h2 {
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 24px;
+     color: #333;
+ }
+ 
+ /* Paragraph styling for the booking details */
+ .booking-details-container p {
+     font-size: 16px;
+     margin-bottom: 10px;
+     color: #555;
+ }
+ 
+ .booking-details-container p strong {
+     color: #000;
+ }
+ 
+ /* Button styling */
+ .booking-details-container button {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     transition: background-color 0.3s ease;
+     margin-top: 20px;
+ }
+ 
+ .booking-details-container button:hover {
+     background-color: #0056b3;
+ }
+
+ .remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.remove-btn:hover {
+    background-color: darkred;
+}
+ 

@@ -1,0 +1,184 @@
+body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin-top: 2rem;
+    padding: 0;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+h1 {
+    text-align: center; /* Center text within the h1 */
+    margin-top: 1rem; /* Remove default margin */
+}
+
+.bg {
+    background-image: url("Images/bg1.png");
+    filter: blur(5px);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2, h3 {
+    color: #000000;
+    text-align: center;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px; /* Space between the header and buttons */
+}
+
+.button-container button {
+    margin: 0 10px; 
+    padding: 10px 20px; 
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+#profile{
+    background-color: rgb(0, 161, 75);
+}
+
+#profile:hover{
+    background-color: rgb(0, 109, 58) ;
+}
+
+
+.dashboard-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px #5d5d5d47 solid;
+    background-color: rgba(255, 255, 255, 0.321);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Destination Cards Container */
+.card-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of cards */
+    justify-content: space-between; /* Distributes space between cards */
+}
+
+
+/* Card Styling */
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px; /* Margin around cards */
+    padding: 15px;
+    width: calc(33.33% - 20px); /* 3 cards in a row with space */
+    height: fit-content;
+    box-sizing: border-box; /* Ensures padding and borders are included in width */
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 150px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center; /* Center text in the card */
+}
+
+.add-desti{
+    background-color: #009e35;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.add-desti:hover{
+    background-color: #00d346;
+}
+
+/* Action Buttons */
+.actions {
+    margin-top: 15px;
+    text-align: center; /* Center actions in card */
+}
+
+.actions a, #dlt {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease;
+}
+
+.actions a:hover {
+    background-color: #0056b3;
+}
+
+/* Add focus styles for accessibility */
+.actions a:focus {
+    outline: 2px solid #0056b3; /* Outline for keyboard navigation */
+}
+
+#dlt{
+    background-color: rgb(228, 5, 5);
+    cursor: pointer;
+}
+
+#dlt:hover{
+    background-color: rgb(176, 0, 0) ;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Two cards per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%; /* One card per row on very small screens */
+    }
+}
