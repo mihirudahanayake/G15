@@ -28,7 +28,7 @@
                 <img id="adminImg2" src="images/bg2.jpg" alt="admin Image" class="image-popup-trigger">
                 <img id="adminImg3" src="images/bg3.jpg" alt="admin Image" class="image-popup-trigger">
                 <img id="adminImg3" src="images/bg5.jpg" alt="admin Image" class="image-popup-trigger">
-                <img id="adminImg3" src="images/bg3.jpg" alt="admin Image" class="image-popup-trigger">
+                <img id="adminImg3" src="images/bg6.jpg" alt="admin Image" class="image-popup-trigger">
                 <img id="adminImg3" src="images/bg3.jpg" alt="admin Image" class="image-popup-trigger">
             </div>
 
